@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+
+}
+
+body {
+    background-color: rgb(252, 247, 100);
+
+}
+
+.logo {
+    width: 270px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background-color: rgb(142, 33, 244);
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    color: rgb(25, 25, 53);
+
+}
+
+label {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(25, 25, 53);
+
+
+}
+
+select,
+input {
+    background: white;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(25, 25, 53);
+
+}
+
+
+button {
+    background: rgb(252, 247, 100);
+    color: rgb(25, 25, 53);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid rgb(252, 247, 100);
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    background-color: white;
+    color: rgb(25, 25, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.arrow {
+    margin: 15px 0;
+
+
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+
+}
+
+
+.currency {
+    color: rgb(25, 25, 53);
+    font-size: 14px;
+
+
+
+
+}
+
+.currency-value,
+.currency-converted {
+    color: rgb(25, 25, 53);
+    font-size: 20px;
+    font-weight: 700;
+
+
+
+
+
+}
