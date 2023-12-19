@@ -95,6 +95,12 @@ function changeCurrency() {/*toda vez que trocar de moeda eu chamo essa função
     convertValues()
 
 }
+
+
+
+
+
+
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues) /*ouvinte do meu botão quando ele é clicado---toda vez que ele for clicado ele chama a função acima*/
 
