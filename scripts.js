@@ -71,7 +71,7 @@ function changeCurrency() {/*toda vez que trocar de moeda eu chamo essa função
 
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dolar Americano"
-        currencyImage.src = "./assests/dolar.png"
+        currencyImage.src = "./assets/dolar.png"
     }
 
     if (currencySelect.value == "euro") {
@@ -89,6 +89,10 @@ function changeCurrency() {/*toda vez que trocar de moeda eu chamo essa função
         currencyImage.src = "./assets/real.png"
     }
 
+
+
+
+    convertValues()
 
 }
 currencySelect.addEventListener("change", changeCurrency)
